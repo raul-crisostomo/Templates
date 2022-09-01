@@ -394,7 +394,7 @@
                         </td>
                         <td class="header-content" align="right" style="color:#fff;padding:8px 24px;font-size:14px;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-weight:400">
                           <strong>Ticket ID:</strong>
-                          <a class="jsd-issue-link" href="${request.url}" style="color:#fff!important">${issue.key}</a>
+                          <a class="jsd-issue-link" href="${request.url}" style="color:#fff!important">{{issue.key}}</a>
                         </td>
                     </table>
                   </td>
@@ -415,7 +415,7 @@
                           <table role="presentation" cellpadding="0" cellspacing="0" width="100%" align="center" style="padding:0;font-size:0">
                             <tbody>
                               <tr>
-                                <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">¡Hoy inicia tu Journey de Integración para [product_id]!</td>
+                                <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">¡Hoy inicia tu Journey de Integración para {{issue.customfield_13082}}!</td>
                               </tr>
                               <tr>
                                 <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">
