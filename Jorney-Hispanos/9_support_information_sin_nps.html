@@ -256,13 +256,13 @@
         }
       }
 
-      @media only screen and (min-device-width:500px) .left-sec {
+      @media only screen and (min-device-width:500px) {.left-sec {
         max-width: 48% !important;
       }
 
       .right-sec {
         max-width: 48% !important;
-      }
+      }}
 
       @media only screen and (min-device-width:414px) {
         .email-container {
@@ -491,7 +491,7 @@
                         </td>
                         <td class="header-content" align="right" style="color:#fff;padding:8px 24px;font-size:14px;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-weight:400">
                           <strong>Ticket ID:</strong>
-                          <a class="jsd-issue-link" href="${request.url}" style="color:#fff!important">${issue.key}</a>
+                          <a class="jsd-issue-link" href="{{request.url}}" style="color:#fff!important">{{issue.key}}</a>
                         </td>
                     </table>
                   </td>
@@ -516,7 +516,7 @@
                               </tr>
                               <tr>
                                 <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">
-                                  <img src="https://cdn.shopify.com/s/files/1/0021/4627/1276/files/timeline-5.png" style="width:110%;margin-left:-5%;margin-top:-5%">
+                                  <img src="https://github.com/raul-crisostomo/Templates/blob/main/Time%20Line/Homologation/timeline-5.png?raw=true" style="width:100%;margin-left:-5%;margin-top:-5%">
                                 </td>
                               </tr>
                               <tr>
@@ -579,8 +579,8 @@
             <table role="presentation" cellspacing="0" cellpadding="0" width="100%" align="center" style="max-width:600px;margin-bottom:10px">
               <tbody>
                 <tr>
-                  <td align="center" style="font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:12px;line-height:1;color:rgba(0,0,0,.8);padding:16px;text-align:center">Shared with: ${request.sharedwith} <span class="jsd-link-separator">&middot;</span>
-                    <a class="jsd-issue-link" href="${request.url}" style="color:#283277!important">View request</a>
+                  <td align="center" style="font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:12px;line-height:1;color:rgba(0,0,0,.8);padding:16px;text-align:center">Shared with: {{request.sharedwith}} <span class="jsd-link-separator">&middot;</span>
+                    <a class="jsd-issue-link" href="{{request.url}}" style="color:#283277!important">View request</a>
                   </td>
                 </tr>
               </tbody>
