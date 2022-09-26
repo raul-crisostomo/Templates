@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="https://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<html lang="es" xmlns="https://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -107,104 +107,92 @@
       .button-link {
         text-decoration: none !important
       }
+      .andes-button--loud, .andes-button--loud:focus, .andes-button--loud:link, .andes-button--loud:visited {
+    background-color: #009ee3;
+    border-color: transparent;
+    color: #fff;
+}
+.andes-button--loud {
+    -webkit-box-shadow: 0 0 0 0 #fff;
+    box-shadow: 0 0 0 0 #fff;
+    cursor: pointer;
+    -webkit-transition: background-color .2s ease-out,-webkit-box-shadow .25s ease-out;
+    transition: background-color .2s ease-out,-webkit-box-shadow .25s ease-out;
+    transition: box-shadow .25s ease-out,background-color .2s ease-out;
+    transition: box-shadow .25s ease-out,background-color .2s ease-out,-webkit-box-shadow .25s ease-out;
+}
+.andes-button--full-width {
+    display: block;
+    width: 100%;
+}
+.andes-button, .andes-button * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.andes-button {
+    -webkit-font-smoothing: antialiased;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 24px;
+    text-align: center;
+    -webkit-transition: .18s ease-out;
+    transition: .18s ease-out;
+    -webkit-transition-property: background,color;
+    transition-property: background,color;
+    width: auto;
+}
+.andes-button--loud:after, .andes-button--loud:before {
+    background-color: #007eb5;
+    border-color: transparent;
+    -webkit-border-radius: 0.2222222222em;
+    border-radius: 0.2222222222em;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    color: #fff;
+    content: "";
+    height: 100%;
+    left: 0;
+    margin: -0.0555555556em;
+    padding: 0.0555555556em;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    width: 100%;
+}
 
-      .andes-button--loud,
-      .andes-button--loud:focus,
-      .andes-button--loud:link,
-      .andes-button--loud:visited {
-        background-color: #009ee3;
-        border-color: transparent;
-        color: #fff;
-      }
-
-      .andes-button--loud {
-        -webkit-box-shadow: 0 0 0 0 #fff;
-        box-shadow: 0 0 0 0 #fff;
-        cursor: pointer;
-        -webkit-transition: background-color .2s ease-out, -webkit-box-shadow .25s ease-out;
-        transition: background-color .2s ease-out, -webkit-box-shadow .25s ease-out;
-        transition: box-shadow .25s ease-out, background-color .2s ease-out;
-        transition: box-shadow .25s ease-out, background-color .2s ease-out, -webkit-box-shadow .25s ease-out;
-      }
-
-      .andes-button--full-width {
-        display: block;
-        width: 100%;
-      }
-
-      .andes-button,
-      .andes-button * {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-      }
-
-      .andes-button {
-        -webkit-font-smoothing: antialiased;
-        -webkit-border-radius: 6px;
-        border-radius: 6px;
-        display: inline-block;
-        font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-        font-size: 16px;
-        font-weight: 600;
-        height: 48px;
-        line-height: 48px;
-        padding: 0 24px;
-        text-align: center;
-        -webkit-transition: .18s ease-out;
-        transition: .18s ease-out;
-        -webkit-transition-property: background, color;
-        transition-property: background, color;
-        width: auto;
-      }
-
-      .andes-button--loud:after,
-      .andes-button--loud:before {
-        background-color: #007eb5;
-        border-color: transparent;
-        -webkit-border-radius: 0.2222222222em;
-        border-radius: 0.2222222222em;
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-        color: #fff;
-        content: "";
-        height: 100%;
-        left: 0;
-        margin: -0.0555555556em;
-        padding: 0.0555555556em;
-        position: absolute;
-        top: 0;
-        -webkit-transform: scaleX(0);
-        transform: scaleX(0);
-        -webkit-transform-origin: left center;
-        transform-origin: left center;
-        width: 100%;
-      }
-
-      .andes-button--loud:after,
-      .andes-button--loud:before {
-        background-color: #007eb5;
-        border-color: transparent;
-        -webkit-border-radius: 0.2222222222em;
-        border-radius: 0.2222222222em;
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-        color: #fff;
-        content: "";
-        height: 100%;
-        left: 0;
-        margin: -0.0555555556em;
-        padding: 0.0555555556em;
-        position: absolute;
-        top: 0;
-        -webkit-transform: scaleX(0);
-        transform: scaleX(0);
-        -webkit-transform-origin: left center;
-        transform-origin: left center;
-        width: 100%;
-      }
+.andes-button--loud:after, .andes-button--loud:before {
+    background-color: #007eb5;
+    border-color: transparent;
+    -webkit-border-radius: 0.2222222222em;
+    border-radius: 0.2222222222em;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    color: #fff;
+    content: "";
+    height: 100%;
+    left: 0;
+    margin: -0.0555555556em;
+    padding: 0.0555555556em;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    width: 100%;
+}
 
       .main__action {
         display: flex;
@@ -262,8 +250,8 @@
 
       .right-sec {
         max-width: 48% !important;
-      }}
-
+      }
+    }
       @media only screen and (min-device-width:414px) {
         .email-container {
           min-width: 414px !important
@@ -512,16 +500,16 @@
                           <table role="presentation" cellpadding="0" cellspacing="0" width="100%" align="center" style="padding:0;font-size:0">
                             <tbody>
                               <tr>
-                                <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">We miss you!</td>
+                                <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">You are ready to process payments in Mercado Pago!</td>
                               </tr>
                               <tr>
                                 <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">
-                                  <img src="https://cdn.shopify.com/s/files/1/0021/4627/1276/files/timeline-2.png?v=1659189439" style="width:100%;margin-left:-5%;margin-top:-5%">
+                                  <img src="https://github.com/raul-crisostomo/Templates/blob/main/Time%20Line/implementation/timeline-implementation-3.png?raw=true" style="width: 100%;margin-left:-5%;margin-top:-5%">
                                 </td>
                               </tr>
                               <tr>
                                 <td valign="middle" align="center" style="padding:0;font-size:0;padding-bottom:40px">
-                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">You've been making progress with your integration, but we haven't heard from you. </p>
+                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">You have completed your implementation.</p>
                                 </td>
                               </tr>
                               <tr>
@@ -531,8 +519,12 @@
                                       <tr>
                                         <td align="center" style="padding:10px 0">
                                           <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
-                                            <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px;color:#00b1ea">
-                                              <p>Do you have any questions or progress that you want to share with us? Remember that if you need to answer a question, you can do so by writing to this <a href="https://mercadolibre.atlassian.net/servicedesk/customer/portal/200/{{issue.key}}"  style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px;color:#00b1ea">ticket</a>. </p>
+                                            <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px;color:#00b1ea"><p>Before finishing, we ask you to answer a short NPS survey that will help us improve our integration journey.</p>
+
+                                              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjDR5Gz0F1r995e6OyAKyqq3MPnY7JAuaMuMKQPERTZ4Rzxw/viewform?usp=pp_url&entry.1619091436={{issue.key}}" target="_blank"> <button id="action-complete" class="andes-button andes-button--large andes-button--loud andes-button--full-width" type="submit" name="action" value="complete"><span class="andes-button__content">Go to the NPS survey
+</span></button></a>
+
+
                                             </div>
                                           </div>
                                         </td>
@@ -541,7 +533,8 @@
                                   </table>
                                 </td>
                               </tr>
-                              <tr>
+
+                  <tr>
                                 <td>
                                   <table cellspacing="0" cellpadding="0" width="100%" align="center">
                                     <tbody>
@@ -551,12 +544,15 @@
                                             <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
                                               <p>
                                                 <strong>Next Steps</strong>
+                                                </p>
+                                                <p>
+                                                  To start processing real payments, you must <a href="{{devHost}}/developers/panel/credentials" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank"> activate your Productive credentials </a>and configure them in your integration.
+
                                               </p>
-                                              <p> Homologize your integration with the Mercado Pago team before going to Production. Find out what the process consists of <a href="{{devHost}}/developers/en/docs/qr-code/integration-configuration/qr-attended/advanced-integration" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank"> here</a>. </p>
-                                              <p> When you have finished the development, tell us a date to coordinate the Homologation. It is important done at least 1 week before it goes into production.</p>
-                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScN6MHrvpclP6qeWx0oZzYI0x0y_ykGr9IstuwhuF_OM11lmg/viewform?entry.499729950={{issue.key}}" target="_blank"> <button id="action-complete" class="andes-button andes-button--large andes-button--loud andes-button--full-width" type="submit" name="action" value="complete">
-                                                <span class="andes-button__content">I'm ready! </span>
-                                              </button></a>
+                                              <p>
+</p>
+
+
                                             </div>
                                           </div>
                                         </td>
@@ -565,12 +561,13 @@
                                   </table>
                                 </td>
                               </tr>
+
                               <tr>
                                 <td align="center" class="title-ms" style="padding:50px 0 30px 0;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:22px;line-height:1.15">Thank you!</td>
                               </tr>
                               <tr>
                                 <td valign="middle" align="center" style="padding:0;font-size:0;padding-bottom:40px">
-                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">Mercado Pago Integrations team </p>
+                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">Mercado Pago Integrations team</p>
                                 </td>
                               </tr>
                             </tbody>
@@ -596,9 +593,9 @@
         </tr>
       </table>
       <!--[if mso]>
-																			<![endif]-->
+																				<![endif]-->
     </div>
     <!--[if mso | IE]>
-																		<![endif]-->
+																			<![endif]-->
   </body>
 </html>
