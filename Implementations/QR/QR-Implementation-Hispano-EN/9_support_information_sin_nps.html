@@ -108,6 +108,104 @@
         text-decoration: none !important
       }
 
+      .andes-button--loud,
+      .andes-button--loud:focus,
+      .andes-button--loud:link,
+      .andes-button--loud:visited {
+        background-color: #009ee3;
+        border-color: transparent;
+        color: #fff;
+      }
+
+      .andes-button--loud {
+        -webkit-box-shadow: 0 0 0 0 #fff;
+        box-shadow: 0 0 0 0 #fff;
+        cursor: pointer;
+        -webkit-transition: background-color .2s ease-out, -webkit-box-shadow .25s ease-out;
+        transition: background-color .2s ease-out, -webkit-box-shadow .25s ease-out;
+        transition: box-shadow .25s ease-out, background-color .2s ease-out;
+        transition: box-shadow .25s ease-out, background-color .2s ease-out, -webkit-box-shadow .25s ease-out;
+      }
+
+      .andes-button--full-width {
+        display: block;
+        width: 100%;
+      }
+
+      .andes-button,
+      .andes-button * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      .andes-button {
+        -webkit-font-smoothing: antialiased;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        display: inline-block;
+        font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 24px;
+        text-align: center;
+        -webkit-transition: .18s ease-out;
+        transition: .18s ease-out;
+        -webkit-transition-property: background, color;
+        transition-property: background, color;
+        width: auto;
+      }
+
+      .andes-button--loud:after,
+      .andes-button--loud:before {
+        background-color: #007eb5;
+        border-color: transparent;
+        -webkit-border-radius: 0.2222222222em;
+        border-radius: 0.2222222222em;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        color: #fff;
+        content: "";
+        height: 100%;
+        left: 0;
+        margin: -0.0555555556em;
+        padding: 0.0555555556em;
+        position: absolute;
+        top: 0;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: left center;
+        transform-origin: left center;
+        width: 100%;
+      }
+
+      .andes-button--loud:after,
+      .andes-button--loud:before {
+        background-color: #007eb5;
+        border-color: transparent;
+        -webkit-border-radius: 0.2222222222em;
+        border-radius: 0.2222222222em;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        color: #fff;
+        content: "";
+        height: 100%;
+        left: 0;
+        margin: -0.0555555556em;
+        padding: 0.0555555556em;
+        position: absolute;
+        top: 0;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: left center;
+        transform-origin: left center;
+        width: 100%;
+      }
+
       .main__action {
         display: flex;
         margin-top: 40px
@@ -158,14 +256,14 @@
         }
       }
 
-      @media only screen and (min-device-width:500px){.left-sec {
-        max-width: 48% !important;
-      }
-
-      .right-sec {
+      @media only screen and (min-device-width:500px) {.left-sec {
         max-width: 48% !important;
       }
     }
+      .right-sec {
+        max-width: 48% !important;
+      }
+
       @media only screen and (min-device-width:414px) {
         .email-container {
           min-width: 414px !important
@@ -414,16 +512,16 @@
                           <table role="presentation" cellpadding="0" cellspacing="0" width="100%" align="center" style="padding:0;font-size:0">
                             <tbody>
                               <tr>
-                                <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">How have you been?</td>
+                                <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">Important!</td>
                               </tr>
                               <tr>
                                 <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">
-                                  <img src="https://github.com/raul-crisostomo/Templates/blob/main/Time%20Line/implementation/timeline-implementation-1.png?raw=true" style="width:100%;margin-left:-5%;margin-top:-5%">
+                                  <img src="https://github.com/raul-crisostomo/Templates/blob/main/Time%20Line/implementation/timeline-implementation-4.png?raw=true" style="width:100%;margin-left:-5%;margin-top:-5%">
                                 </td>
                               </tr>
                               <tr>
                                 <td valign="middle" align="center" style="padding:0;font-size:0;padding-bottom:40px">
-                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">You already have the resources to implement your product. We recommend that you start the implementation soon.</p>
+                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">We are grateful to have accompanied you during this journey, which ends today.</p>
                                 </td>
                               </tr>
                               <tr>
@@ -434,7 +532,22 @@
                                         <td align="center" style="padding:10px 0">
                                           <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
                                             <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
-                                              <p>Please enter your development start date in the following  <a href="https://docs.google.com/forms/d/e/1FAIpQLScN6MHrvpclP6qeWx0oZzYI0x0y_ykGr9IstuwhuF_OM11lmg/viewform?entry.499729950={{issue.key}}" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">[Link]</a>
+                                              <p>
+                                                <strong>Meet your new support channels to continue growing!</strong>
+                                              </p>
+                                              <p>
+                                                <strong>Do you have any administrative questions?</strong>
+                                              </p>
+                                              <p>
+                                                <a href="{{devHost}}/developers/es/support" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Help Center</a>
+                                              </p>
+                                              <p>
+                                                <strong>Do you need to resolve an incident in production? </strong>
+                                              </p>
+                                              <p>You can contact our support team by opening a ticket at</p>
+                                              <p>
+                                                <a href="{{devHost}}/developers/es/support/center/tickets" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Support Center </a>
+                                              </p>
                                               </p>
                                             </div>
                                           </div>
@@ -450,12 +563,8 @@
                                     <tbody>
                                       <tr>
                                         <td align="center" style="padding:10px 0">
-                                          <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
-                                            <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
-                                              <p>
-                                                <strong>Next Steps</strong>
-                                                <br></br> A From your Start date of development, you can contact us to clarify any questions or problems you have during the implementation.
-                                              </p>
+
+                                            </div>
                                             </div>
                                           </div>
                                         </td>
@@ -469,7 +578,7 @@
                               </tr>
                               <tr>
                                 <td valign="middle" align="center" style="padding:0;font-size:0;padding-bottom:40px">
-                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">Mercado Pago Integrations team. </p>
+                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">Mercado Pago Integrations team</p>
                                 </td>
                               </tr>
                             </tbody>
@@ -495,9 +604,9 @@
         </tr>
       </table>
       <!--[if mso]>
-																				<![endif]-->
+																			<![endif]-->
     </div>
     <!--[if mso | IE]>
-																			<![endif]-->
+																		<![endif]-->
   </body>
 </html>
