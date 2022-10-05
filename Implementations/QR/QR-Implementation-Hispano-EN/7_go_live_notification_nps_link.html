@@ -107,11 +107,16 @@
       .button-link {
         text-decoration: none !important
       }
-      .andes-button--loud, .andes-button--loud:focus, .andes-button--loud:link, .andes-button--loud:visited {
+
+      .andes-button--loud,
+      .andes-button--loud:focus,
+      .andes-button--loud:link,
+      .andes-button--loud:visited {
     background-color: #009ee3;
     border-color: transparent;
     color: #fff;
 }
+
 .andes-button--loud {
     -webkit-box-shadow: 0 0 0 0 #fff;
     box-shadow: 0 0 0 0 #fff;
@@ -125,7 +130,8 @@
     display: block;
     width: 100%;
 }
-.andes-button, .andes-button * {
+.andes-button,
+.andes-button * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -135,7 +141,7 @@
     -webkit-border-radius: 6px;
     border-radius: 6px;
     display: inline-block;
-    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-family: Proxima Nova, -apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-size: 16px;
     font-weight: 600;
     height: 48px;
@@ -473,7 +479,7 @@
                     <table border="0" cellspacing="0" cellpadding="0" width="100%" style="margin:0 auto;max-width:1280px;width:100%">
                       <tr>
                         <td class="header-content" align="left" valign="middle" style="padding:8px 24px">
-                          <a class="logo-mp" target="_blank" href="http://www.mercadopago.com.ar/" title="Mercado Pago">
+                          <a class="logo-mp" target="_blank" href="{{devHost}}" title="Mercado Pago">
                             <img border="0" src="http://static.mlstatic.com/org-img/mkt/email-mkt-assets/checkout-off/logo-mercado-pago.png" width="140" height="auto" alt="Mercado Pago" style="display:block;height:auto;width:140px;border:0;image-rendering:auto!important">
                           </a>
                         </td>
@@ -523,8 +529,6 @@
 
                                               <a href="https://docs.google.com/forms/d/e/1FAIpQLScR8t-5viyasoWddTS-2Y-ZYfzPDdDpMplzVM-Uiq9fMTJDUQ/viewform?usp=pp_url&entry.1619091436={{issue.key}}" target="_blank"> <button id="action-complete" class="andes-button andes-button--large andes-button--loud andes-button--full-width" type="submit" name="action" value="complete"><span class="andes-button__content">Go to the NPS survey
 </span></button></a>
-
-
                                             </div>
                                           </div>
                                         </td>
@@ -533,7 +537,6 @@
                                   </table>
                                 </td>
                               </tr>
-
                   <tr>
                                 <td>
                                   <table cellspacing="0" cellpadding="0" width="100%" align="center">
@@ -561,13 +564,12 @@
                                   </table>
                                 </td>
                               </tr>
-
                               <tr>
                                 <td align="center" class="title-ms" style="padding:50px 0 30px 0;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:22px;line-height:1.15">Thank you!</td>
                               </tr>
                               <tr>
                                 <td valign="middle" align="center" style="padding:0;font-size:0;padding-bottom:40px">
-                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">Mercado Pago Integrations team</p>
+                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0"> Mercado Pago Integrations team</p>
                                 </td>
                               </tr>
                             </tbody>
