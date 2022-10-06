@@ -126,19 +126,16 @@
         transition: box-shadow .25s ease-out, background-color .2s ease-out;
         transition: box-shadow .25s ease-out, background-color .2s ease-out, -webkit-box-shadow .25s ease-out;
       }
-
       .andes-button--full-width {
         display: block;
         width: 100%;
       }
-
       .andes-button,
       .andes-button * {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
       }
-
       .andes-button {
         -webkit-font-smoothing: antialiased;
         -webkit-border-radius: 6px;
@@ -223,11 +220,6 @@
       .main__section {
         display: flex
       }
-
-      .left-sec {}
-
-      .right-sec {}
-
       @media only screen and (min-device-width:320px) and (max-device-width:374px) {
         .email-container {
           min-width: 320px !important
@@ -485,7 +477,7 @@
                     <table border="0" cellspacing="0" cellpadding="0" width="100%" style="margin:0 auto;max-width:1280px;width:100%">
                       <tr>
                         <td class="header-content" align="left" valign="middle" style="padding:8px 24px">
-                          <a class="logo-mp" target="_blank" href="http://www.mercadopago.com.ar/" title="Mercado Pago">
+                          <a class="logo-mp" target="_blank" href="{{devHost}}" title="Mercado Pago">
                             <img border="0" src="http://static.mlstatic.com/org-img/mkt/email-mkt-assets/checkout-off/logo-mercado-pago.png" width="140" height="auto" alt="Mercado Pago" style="display:block;height:auto;width:140px;border:0;image-rendering:auto!important">
                           </a>
                         </td>
@@ -516,7 +508,7 @@
                               </tr>
                               <tr>
                                 <td align="center" class="title-ms" style="padding-bottom:40px;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:28px;line-height:1.15;padding-top:10px">
-                                  <img src="https://github.com/raul-crisostomo/Templates/blob/main/Time%20Line/Homologation/timeline-5.png" style="width:100%;margin-left:-5%;margin-top:-5%">
+                                  <img src="https://github.com/raul-crisostomo/Templates/blob/main/Time%20Line/Homologation/timeline-5.png?raw=true" style="width:100%;margin-left:-5%;margin-top:-5%">
                                 </td>
                               </tr>
                               <tr>
@@ -542,14 +534,12 @@
                                                 <a href="{{devHost}}/developers/en/support" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Help Center</a>
                                               </p>
                                               <p>
-                                                <strong>Do you need to resolve an incident in production?</strong>
+                                                <strong>Do you need to resolve an incident in production? </strong>
                                               </p>
-                                              <p>You can contact our support team by opening a ticket at </p>
+                                              <p>You can contact our support team by opening a ticket at</p>
                                               <p>
                                                 <a href="{{devHost}}/developers/en/support/center/tickets" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Support Center </a>
-                                              </p>
-                                              </p>
-                                            </div>
+                                              </p></div>
                                           </div>
                                         </td>
                                       </tr>
@@ -564,13 +554,10 @@
                                       <tr>
                                         <td align="center" style="padding:10px 0">
                                           <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
-                                            <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px;color:#00b1ea">
-                                              <p>Before finishing, we ask you to answer a short NPS survey that will help us improve our integration journey.</p>
-                                              <button id="action-complete" class="andes-button andes-button--large andes-button--loud andes-button--full-width" type="submit" name="action" value="complete">
-                                                <span class="andes-button__content">Go to the NPS survey</span>
-                                              </button>
-                                            </div>
-                                          </div>
+                                            <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px;color:#00b1ea"><p>Before finishing, we ask you to answer a short NPS survey that will help us improve our itegration journey.</p>
+
+                                              <a href="https://docs.google.com/forms/d/e/1FAIpQLScR8t-5viyasoWddTS-2Y-ZYfzPDdDpMplzVM-Uiq9fMTJDUQ/viewform?usp=pp_url&entry.1619091436={{issue.key}}" target="_blank"><button id="action-complete" class="andes-button andes-button--large andes-button--loud andes-button--full-width" type="submit" name="action" value="complete"><span class="andes-button__content">Go to the NPS survey
+</span></button></a></div></div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -582,7 +569,7 @@
                               </tr>
                               <tr>
                                 <td valign="middle" align="center" style="padding:0;font-size:0;padding-bottom:40px">
-                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0"> Mercado Pago Integrations team</p>
+                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">Mercado Pago Integrations team.</p>
                                 </td>
                               </tr>
                             </tbody>
