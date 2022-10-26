@@ -126,19 +126,16 @@
         transition: box-shadow .25s ease-out, background-color .2s ease-out;
         transition: box-shadow .25s ease-out, background-color .2s ease-out, -webkit-box-shadow .25s ease-out;
       }
-
       .andes-button--full-width {
         display: block;
         width: 100%;
       }
-
       .andes-button,
       .andes-button * {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
       }
-
       .andes-button {
         -webkit-font-smoothing: antialiased;
         -webkit-border-radius: 6px;
@@ -223,11 +220,6 @@
       .main__section {
         display: flex
       }
-
-      .left-sec {}
-
-      .right-sec {}
-
       @media only screen and (min-device-width:320px) and (max-device-width:374px) {
         .email-container {
           min-width: 320px !important
@@ -533,7 +525,7 @@
                                           <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
                                             <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px;color:#00b1ea">
                                               <p>Before finishing, we ask you to answer a short NPS survey that will help us improve our integration journey.</p>
-                                              <a href="https://docs.google.com/forms/d/e/1FAIpQLScR8t-5viyasoWddTS-2Y-ZYfzPDdDpMplzVM-Uiq9fMTJDUQ/viewform?usp=pp_url&entry.1619091436=TEST-123" target="_blank"><button id="action-complete" class="andes-button andes-button--large andes-button--loud andes-button--full-width" type="submit" name="action" value="complete">
+                                              <a href="https://docs.google.com/forms/d/e/1FAIpQLScR8t-5viyasoWddTS-2Y-ZYfzPDdDpMplzVM-Uiq9fMTJDUQ/viewform?usp=pp_url&entry.1619091436={{issue.key}}" target="_blank"><button id="action-complete" class="andes-button andes-button--large andes-button--loud andes-button--full-width" type="submit" name="action" value="complete">
                                                 <span class="andes-button__content">Go to the NPS survey </span>
                                               </button></a>
                                             </div>
@@ -570,7 +562,7 @@
                               </tr>
                               <tr>
                                 <td valign="middle" align="center" style="padding:0;font-size:0;padding-bottom:40px">
-                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0"> Mercado Pago Integrations team</p>
+                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">Mercado Pago Integrations team.</p>
                                 </td>
                               </tr>
                             </tbody>
