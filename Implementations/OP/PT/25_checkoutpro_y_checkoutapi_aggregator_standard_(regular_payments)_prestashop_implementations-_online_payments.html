@@ -125,54 +125,57 @@
       .main__section {
         display: flex
       }
+
       @media only screen and (min-device-width:320px) and (max-device-width:374px) {
         .email-container {
           min-width: 320px !important
         }
-          .left-sec{
+
+        .left-sec {
             min-width: 100% !important
-
      }
-      .right-sec{
-          min-width: 100% !important
 
-        }
+        .right-sec {
+            min-width: 100% !important
+     }
       }
 
       @media only screen and (min-device-width:375px) and (max-device-width:413px) {
         .email-container {
           min-width: 375px !important
         }
-        .left-sec{
+
+        .left-sec {
             min-width: 100% !important
-
      }
-      .right-sec{
-          min-width: 100% !important
 
+        .right-sec {
+            min-width: 100% !important
+     }
+      }
+
+      @media only screen and (min-device-width:500px) {
+        .left-sec {
+            max-width: 48% !important;
+        }
+
+        .right-sec {
+            max-width: 48% !important;
         }
       }
-  @media only screen and (min-device-width:500px){
-        .left-sec{
-          max-width: 48% !important;
 
-        }
-     .right-sec{
-          max-width: 48% !important;
-
-     }}
       @media only screen and (min-device-width:414px) {
         .email-container {
           min-width: 414px !important
         }
-        .left-sec{
+
+        .left-sec {
             max-width: 48% !important;
-
      }
-     .right-sec{
-          max-width: 48% !important;
 
-        }
+        .right-sec {
+            max-width: 48% !important;
+     }
       }
 
       @media screen and (min-device-width:480px) {
@@ -377,7 +380,8 @@
               <tbody>
                 <tr>
                   <td>
-                    
+                <tr>
+                  <td>
                     <table border="0" cellspacing="0" cellpadding="0" width="100%" style="margin:0 auto;max-width:1280px;width:100%">
                       <tr>
                         <td class="header-content" align="left" valign="middle" style="padding:8px 24px">
@@ -447,188 +451,131 @@
                               </tr>
                               <tr>
                                 <td>
-                              <tr>
-                                <td align="center">
-                                  <table class="left-sec" role="presentation" align="left" cellpadding="0" cellspacing="0" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody>
-                                              <tr>
-                                                <td align="center" style="padding:10px 0">
-                                                  <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
+                                    <tr>
+                                      <td align="center">
+                                        <table class="left-sec" role="presentation" align="left" cellpadding="0" cellspacing="0" width="100%">
+                                          <tbody>
+                                            <tr>
+                                              <td dir="ltr" align="center" style="padding:0;font-size:0">
+                                                <table cellspacing="0" cellpadding="0" width="100%" align="center">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="center" style="padding:10px 0">
+                                                        <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
                                                     <div style="color:rgba(0,0,0,.8);font-weight:600;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:18px;line-height:1.21">Documentação</div>
-                                                    <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
+                                                          <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
                                                       <p>Encontre todas as informações para integrar o produto que deseja.</p></div>
-                                                    <div style="text-decoration:none;display:block">
-                                                      <a href="{{devHost}}/developers/pt/docs/shopify/introduction" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Ver mais</a>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <table class="right-sec" role="presentation" align="right" cellpadding="0" cellspacing="0" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody>
-                                              <tr>
-                                                <td align="center" style="padding:10px 0">
-                                                  <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
+                                                          <div style="text-decoration:none;display:block">
+                                                            <a href="{{devHost}}/developers/pt/docs/prestashop/landing" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Ver mais</a>
+                                                          </div>
+                                                        </div>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <table class="right-sec" role="presentation" align="right" cellpadding="0" cellspacing="0" width="100%">
+                                          <tbody>
+                                            <tr>
+                                              <td dir="ltr" align="center" style="padding:0;font-size:0">
+                                                <table cellspacing="0" cellpadding="0" width="100%" align="center">
+                                                  <tbody>
+                                                    <tr>
+                                                        <td align="center" style="padding:10px 0">
+                                                          <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
                                                     <div style="color:rgba(0,0,0,.8);font-weight:600;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:18px;line-height:1.21">Notificações</div>
-                                                    <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
+                                                            <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
                                                       <p>Receba notificações de pagamento sempre que ocorrer um evento.</p>
-                                                    </div>
-                                                    <div style="text-decoration:none;display:block">
-                                                      <a href="{{devHost}}/developers/pt/docs/checkout-pro/additional-content/notifications/webhooks" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Ver mais</a>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
+                                                            </div>
+                                                            <div style="text-decoration:none;display:block">
+                                                              <a href="{{devHost}}/developers/pt/docs/checkout-pro/additional-content/notifications/webhooks" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Ver mais</a>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center">
+                                        <table class="left-sec" role="presentation" align="left" cellpadding="0" cellspacing="0" width="100%">
+                                          <tbody>
+                                            <tr>
+                                              <td dir="ltr" align="center" style="padding:0;font-size:0">
+                                                <table cellspacing="0" cellpadding="0" width="100%" align="center">
+                                                  <tbody>
+                                                    <tr>
+                                                        <td align="center" style="padding:10px 0">
+                                                          <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
+                                                            <div style="color:rgba(0,0,0,.8);font-weight:600;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:18px;line-height:1.21">Vídeos</div>
+                                                            <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
+                                                              <p>Confira os vídeos em nosso canal do Youtube, eles podem ser muito úteis.</p>
+                                                            </div>
+                                                            <div style="text-decoration:none;display:block">
+                                                              <a href="https://youtu.be/OQ0vdvKvy3o" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Ver mais</a>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <table class="right-sec" role="presentation" align="right" cellpadding="0" cellspacing="0" width="100%">
+                                          <tbody>
+                                            <tr>
+                                              <td dir="ltr" align="center" style="padding:0;font-size:0">
+                                                <table cellspacing="0" cellpadding="0" width="100%" align="center">
+                                                  <tbody>
+                                                    <tr>
+                                                        <td align="center" style="padding:10px 0">
+                                                          <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
+                                                            <div style="color:rgba(0,0,0,.8);font-weight:600;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:18px;line-height:1.21">Teste o seu Checkout</div>
+                                                            <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
+                                                              <p>Gere usuários de teste para desenvolver e testar sua implementação.</p>
+                                                            </div>
+                                                            <div style="text-decoration:none;display:block">
+                                                              <a href="{{devHost}}/developers/pt/docs/prestashop/sales-processing/integration-test" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Ver mais</a>
+                                                            </div>
+                                                          </div>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
                               <tr>
-                                <td align="center">
-                                  <table class="left-sec" role="presentation" align="left" cellpadding="0" cellspacing="0" width="100%">
+                                <td>
+                                  <table cellspacing="0" cellpadding="0" width="100%" align="center">
                                     <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody></tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <table class="right-sec" role="presentation" align="right" cellpadding="0" cellspacing="0" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody></tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="center">
-                                  <table class="left-sec" role="presentation" align="left" cellpadding="0" cellspacing="0" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody></tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <table class="right-sec" role="presentation" align="right" cellpadding="0" cellspacing="0" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody></tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="center">
-                                  <table class="left-sec" role="presentation" align="left" cellpadding="0" cellspacing="0" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody></tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <table class="right-sec" role="presentation" align="right" cellpadding="0" cellspacing="0" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody></tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="center">
-                                  <table class="left-sec" role="presentation" align="left" cellpadding="0" cellspacing="0" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody>
-                                              <tr>
-                                                <td align="center" style="padding:10px 0">
-                                                  <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
-                                                    <div style="color:rgba(0,0,0,.8);font-weight:600;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:18px;line-height:1.21">Teste o seu Checkout</div>
-                                                    <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
-                                                      <p>Gere usuários de teste para desenvolver e testar sua integração.</p>
-                                                    </div>
-                                                    <div style="text-decoration:none;display:block">
-                                                      <a href="{{devHost}}/developers/panel/test-users" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Ver mais</a>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <table class="right-sec" role="presentation" align="right" cellpadding="0" cellspacing="0" width="100%">
-                                    <tbody>
-                                      <tr>
-                                        <td dir="ltr" align="center" style="padding:0;font-size:0">
-                                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                                            <tbody>
-                                              <tr>
-                                                <td align="center" style="padding:10px 0">
-                                                  <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
-                                            <div style="color:rgba(0,0,0,.8);font-weight:600;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:18px;line-height:1.21">Reportes</div>
-                                                    <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
+                                        <tr>
+                                            <td align="center" style="padding:10px 0">
+                                              <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
+                                                <div style="color:rgba(0,0,0,.8);font-weight:600;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:18px;line-height:1.21">Reportes</div>
+                                                <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
                                               <p>Use nossos relatórios para gerenciar a reconciliação de sua conta.
 </p>
-                                                    </div>
-                                                    <div style="text-decoration:none;display:block">
-                                                      <a href="{{devHost}}/developers/pt/docs/checkout-pro/additional-content/reports/introduction" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Ver mais</a>
-                                                    </div>
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                        </td>
-                                      </tr>
+                                                </div>
+                                                <div style="text-decoration:none;display:block">
+                                                  <a href="{{devHost}}/developers/pt/docs/checkout-pro/additional-content/reports/introduction" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">Ver mais</a>
+                                                </div>
+                                              </div>
+                                            </td>
+                                          </tr>
                                     </tbody>
                                   </table>
                                 </td>
@@ -636,69 +583,69 @@
                           </table>
                         </td>
                       </tr>
-                      <tr>
-                        <td>
-                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                            <tbody>
                               <tr>
-                                <td align="center" style="padding:10px 0">
-                                  <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
-                                    <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
-                                      <p>
+                                <td>
+                                  <table cellspacing="0" cellpadding="0" width="100%" align="center">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" style="padding:10px 0">
+                                          <div class="card-content" style="padding:25px;display:block;margin:0 auto;text-align:center">
+                                            <div style="color:rgba(0,0,0,.8);font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;line-height:21px">
+                                              <p>
                                                 <strong>2.</strong>
                                                 Insira a data de início da implementação no seguinte <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmf1g0qwpyvwFCWGoYXolAK9-UmSJCkEwMoc9iRvA7-0dRoQ/viewform?entry.499729950={{issue.key}}" style="color:#009ee3;font-size:16px;font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;line-height:1.21;text-decoration:none" target="_blank">[Link]</a>
 
-                                      </p>
-                                    </div>
-                                  </div>
+                                              </p>
+                                            </div>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                               <tr>
+                                <td>
+                                  <table cellspacing="0" cellpadding="0" width="100%" align="center">
+                            <tbody></tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                      <td align="center" class="title-ms" style="padding:50px 0 30px 0;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:22px;line-height:1.15">Obrigado</td>
+                                    </tr>
+                                        <tr>
+                                <td valign="middle" align="center" style="padding:0;font-size:0;padding-bottom:40px">
+                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">
+                                    A equipe de Integrações do Mercado Pago.</p>
                                 </td>
                               </tr>
                             </tbody>
                           </table>
                         </td>
                       </tr>
-                      <tr>
-                        <td>
-                          <table cellspacing="0" cellpadding="0" width="100%" align="center">
-                            <tbody></tbody>
-                          </table>
-                        </td>
-                      </tr>
-                      <tr>
-                                      <td align="center" class="title-ms" style="padding:50px 0 30px 0;font-weight:600;color:rgba(0,0,0,.8);font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:22px;line-height:1.15">Obrigado</td>
-                      </tr>
-                      <tr>
-                        <td valign="middle" align="center" style="padding:0;font-size:0;padding-bottom:40px">
-                                  <p style="font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:16px;color:rgba(0,0,0,.8);font-weight:400;line-height:1.4em;margin:0">
-                                    A equipe de Integrações do Mercado Pago.</p>
-                        </td>
-                      </tr>
                     </tbody>
                   </table>
                 </td>
+                <td class="show" height="50" align="right" style="background:#009ee3;display:none;max-height:0;overflow:hidden"></td>
               </tr>
+            </table>
+            <table role="presentation" cellspacing="0" cellpadding="0" width="100%" align="center" style="max-width:600px;margin-bottom:10px">
+              <tbody>
+                <tr>
+                  <td align="center" style="font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:12px;line-height:1;color:rgba(0,0,0,.8);padding:16px;text-align:center">Shared with: {{request.sharedwith}} <span class="jsd-link-separator">&middot;</span>
+                    <a class="jsd-issue-link" href="https://mercadolibre.atlassian.net/servicedesk/customer/portal/200/{{issue.key}}" style="color:#283277!important">View request</a>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </td>
-          <td class="show" height="50" align="right" style="background:#009ee3;display:none;max-height:0;overflow:hidden"></td>
         </tr>
       </table>
-      <table role="presentation" cellspacing="0" cellpadding="0" width="100%" align="center" style="max-width:600px;margin-bottom:10px">
-        <tbody>
-          <tr>
-                  <td align="center" style="font-weight:400;font-family:'Proxima Nova','Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;font-size:12px;line-height:1;color:rgba(0,0,0,.8);padding:16px;text-align:center">Shared with: {{request.sharedwith}} <span class="jsd-link-separator">&middot;</span>
-              <a class="jsd-issue-link" href="https://mercadolibre.atlassian.net/servicedesk/customer/portal/200/{{issue.key}}" style="color:#283277!important">View request</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      </td>
-      </tr>
-      </table>
       <!--[if mso]>
-																			<![endif]-->
+																				<![endif]-->
     </div>
     <!--[if mso | IE]>
-																		<![endif]-->
+																			<![endif]-->
   </body>
 </html>
