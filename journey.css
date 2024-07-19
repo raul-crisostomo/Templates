@@ -1,4 +1,4 @@
-    <style>
+
       body,
       html {
         margin: 0 auto !important;
@@ -111,6 +111,8 @@
       .main__section {
         display: flex
       }
+      .email-container {
+background:#fff !important},
       @media only screen and (min-device-width:320px) and (max-device-width:374px) {
         .email-container {
           min-width: 320px !important
